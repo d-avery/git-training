@@ -16,6 +16,8 @@ double upperBound(const std::vector<double>& vec, double target) {
 		else {
 			j = mid;
 		}
+
+		mid = (i + j) / 2;
 	}
 
 	if (i < vec.size() && vec[mid] <= target) {
