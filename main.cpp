@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-//#include "binarySearch.hpp"
+#include "binarySearch.hpp"
 using namespace std;
 int main() {
 	cout<<"Add meg az elemek szamat:";
